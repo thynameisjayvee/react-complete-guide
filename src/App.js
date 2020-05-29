@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Person from "./Person";
 import ClassBasedComponent from "./ClassBasedComponent";
+import FunctionalComponent from "./FunctionalComponent";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <h1>Hi, Welcome to React Complete Guide.</h1>
         <Person />
         <ClassBasedComponent />
+        <FunctionalComponent />
       </div>
     );
 

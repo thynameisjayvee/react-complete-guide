@@ -6,14 +6,6 @@ import FunctionalComponent from "./FunctionalComponent";
 
 class App extends Component {
   render() {
-    // return (
-    //   <div className="App">
-    //     <h1>Hi, Welcome to React Complete Guide.</h1>
-    //     <Person />
-    //     <SampleComponent />
-    //   </div>
-    // );
-
     return (
       <div className="App">
         <h1>Hi, Welcome to React Complete Guide.</h1>

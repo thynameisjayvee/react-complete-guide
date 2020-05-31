@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hi, Welcome to React Complete Guide.</h1>
-        <Person />
+        <Person name="Jayvee" age="23" />
+        <Person>Hobbies: Gaming</Person>
         <ClassBasedComponent />
         <FunctionalComponent />
       </div>

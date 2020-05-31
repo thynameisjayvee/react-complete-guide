@@ -1,9 +1,11 @@
 import React from "react";
 
-const person = () => {
+const person = (props) => {
   return (
     <div className="card mx-auto">
-      <p>I'm a person</p>
+      <p>
+        I'm {props.name} and I'm {props.age} years old
+      </p>
     </div>
   );
 };

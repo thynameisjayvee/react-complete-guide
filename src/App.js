@@ -5,12 +5,32 @@ import ClassBasedComponent from "./ClassBasedComponent";
 import FunctionalComponent from "./FunctionalComponent";
 
 class App extends Component {
+  state = {
+    persons: [
+      {
+        name: "Jayvee",
+        age: 23,
+      },
+      {
+        name: "Jv",
+        age: 23,
+      },
+    ],
+  };
+
   render() {
     return (
       <div className="App">
         <h1>Hi, Welcome to React Complete Guide.</h1>
-        <Person name="Jayvee" age="23" />
-        <Person name="Jv" age="23">
+        <button>Switch name</button>
+        <Person
+          name={this.state.persons[0].name}
+          age={this.state.persons[0].age}
+        />
+        <Person
+          name={this.state.persons[1].name}
+          age={this.state.persons[1].age}
+        >
           Hobbies: Gaming
         </Person>
         <ClassBasedComponent author="Jayvee" />

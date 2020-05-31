@@ -5,6 +5,7 @@ class ClassBasedComponent extends Component {
     return (
       <div className="card mx-auto">
         <p className="red--text">I'm a class-based component</p>
+        <p>Made by: {this.props.author}</p>
       </div>
     );
   }

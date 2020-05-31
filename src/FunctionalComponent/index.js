@@ -1,9 +1,10 @@
 import React from "react";
 
-const FunctionalComponent = () => {
+const FunctionalComponent = (props) => {
   return (
     <div className="card mx-auto">
       <p>I'm a functional component</p>
+      <p>Made by: {props.author}</p>
     </div>
   );
 };

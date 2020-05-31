@@ -10,9 +10,11 @@ class App extends Component {
       <div className="App">
         <h1>Hi, Welcome to React Complete Guide.</h1>
         <Person name="Jayvee" age="23" />
-        <Person>Hobbies: Gaming</Person>
-        <ClassBasedComponent />
-        <FunctionalComponent />
+        <Person name="Jv" age="23">
+          Hobbies: Gaming
+        </Person>
+        <ClassBasedComponent author="Jayvee" />
+        <FunctionalComponent author="Jayvee" />
       </div>
     );
 
